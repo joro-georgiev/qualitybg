@@ -105,7 +105,7 @@ export default function RootLayout({
 
         <footer id="footer">
           <div className="container">
-            <p className="text-muted">Copyright © 2025. All Rights Reserved.</p>
+            <p className="text-muted">Copyright © 2025 Quality8. All Rights Reserved.</p>
           </div>
         </footer>
 
