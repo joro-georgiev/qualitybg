@@ -16,7 +16,7 @@ export default function Home() {
           <br/>
           {ln('prices_table.windows.discount')}
         </div>
-        <div className="col-xs-3">2.00 {ln( "prices_lev_sq" )}*</div>
+        <div className="col-xs-3">3.00 {ln( "prices_lev_sq" )}*</div>
       </div>
 
       <div className="row table-row">
@@ -32,14 +32,14 @@ export default function Home() {
         <div className="col-xs-9">
           <b>3. {ln('prices_table.display_case')} </b>
         </div>
-        <div className="col-xs-3">0.40 {ln( "prices_lev_sq" )}</div>
+        <div className="col-xs-3">0.80 {ln( "prices_lev_sq" )}</div>
       </div>
 
       <div className="row table-row">
         <div className="col-xs-9">
           <b>4. {ln('prices_table.blinds')} </b>
         </div>
-        <div className="col-xs-3">2.00 {ln( "prices_lev_sq" )}</div>
+        <div className="col-xs-3">3.00 {ln( "prices_lev_sq" )}</div>
       </div>
 
       <div className="row table-row">
@@ -50,7 +50,7 @@ export default function Home() {
           <br/>
           {ln('prices_table.hard_flooring.discount')}
         </div>
-        <div className="col-xs-3">2.50 {ln( "prices_lev_sq" )}*</div>
+        <div className="col-xs-3">3.50 {ln( "prices_lev_sq" )}*</div>
       </div>
 
       <div className="row table-row">
@@ -61,7 +61,7 @@ export default function Home() {
           <br/>
           {ln('prices_table.wash_hard_flooring.discount')}
         </div>
-        <div className="col-xs-3">4.50 {ln( "prices_lev_sq" )}*</div>
+        <div className="col-xs-3">7.00 {ln( "prices_lev_sq" )}*</div>
       </div>
 
       <div className="table-row">
@@ -108,21 +108,21 @@ export default function Home() {
           <br/>
           {ln('prices_table.bath.details')}
         </div>
-        <div className="col-xs-3">40.00 - 60.00 {ln( "prices_lev" )}.</div>
+        <div className="col-xs-3">60.00 - 100.00 {ln( "prices_lev" )}.</div>
       </div>
 
       <div className="row table-row">
         <div className="col-xs-9">
           <b>10. {ln('prices_table.complete_cleanup')} </b>
         </div>
-        <div className="col-xs-3">4.50 {ln( "prices_lev_sq" )}</div>
+        <div className="col-xs-3">6.00 {ln( "prices_lev_sq" )}</div>
       </div>
 
       <div className="row table-row">
         <div className="col-xs-9">
           <b>11. {ln('prices_table.complete_cleanup_after_renovation')} </b>
         </div>
-        <div className="col-xs-3">5.50 {ln( "prices_lev_sq" )}</div>
+        <div className="col-xs-3">7.00 {ln( "prices_lev_sq" )}</div>
       </div>
 
       <div className="row table-row">
@@ -136,7 +136,7 @@ export default function Home() {
         <div className="col-xs-9">
           <b>13. {ln('prices_table.garage_vacuuming')} </b>
         </div>
-        <div className="col-xs-3">0.70 - 1.00 {ln( "prices_lev_sq" )}</div>
+        <div className="col-xs-3">1.50 - 2.00 {ln( "prices_lev_sq" )}</div>
       </div>
 
       <div className="row table-row">
@@ -145,7 +145,7 @@ export default function Home() {
           <br />
           {ln('prices_table.house_cleaner.details')}
         </div>
-        <div className="col-xs-3">20 {ln( "prices_lev_hour" )}</div>
+        <div className="col-xs-3">40 {ln( "prices_lev_hour" )}</div>
       </div>
 
       <div className="row table-row">
@@ -166,7 +166,7 @@ export default function Home() {
         <b>{ln('prices_notes')}:</b><br />
         <span style={{color: '#ff0000'}}>{ln('prices_notes.important')}</span><br/>
         {ln('prices_notes.1')}<br/>
-        {ln('prices_min_order')} - 60{ln( "prices_lev" )}.<br/>
+        {ln('prices_min_order')} - 100{ln( "prices_lev" )}.<br/>
         {ln("prices_notes.vat")}<br/>
       </div>
 
