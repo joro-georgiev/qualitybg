@@ -49,10 +49,10 @@
 
 	"prices_title": "Цени",
 	"prices_ask": "направете запитване",
-	"prices_lev": "лв",
-	"prices_lev_sq": "лв/кв.м.",
-	"prices_lev_hour": "лв./час",
-	"prices_lev_floor": "лв./етаж",
+	"prices_eur": "€",
+	"prices_eur_sq": "€/кв.м.",
+	"prices_eur_hour": "€./час",
+	"prices_eur_floor": "€./етаж",
 
 	"prices_oneside": "едностранно",
 	
